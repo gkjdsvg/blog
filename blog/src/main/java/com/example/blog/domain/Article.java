@@ -4,7 +4,14 @@ import jakarta.annotation.Generated;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.cglib.core.Local;
+import org.springframework.data.annotation.CreatedDate;
+import org.springframework.data.annotation.LastModifiedDate;
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
+import java.time.LocalDateTime;
+
+@EntityListeners(AuditingEntityListener.class)
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
@@ -34,4 +41,14 @@ public class Article {
         this.title = title;
         this.content = content;
     }
+
+    @CreatedDate
+    @Column(name = "created_at")
+    @Getter
+    private LocalDateTime createdAt;
+
+    @LastModifiedDate
+    @Column(name = "updated_at")
+    @Getter
+    private LocalDateTime updatedAt;
 }
