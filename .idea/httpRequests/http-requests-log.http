@@ -1,0 +1,604 @@
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0AQSTgQFzSzaHU36rBGEHiYBPQ5-E_RkzjdvxeXeWRLimpZPvY59gx2pLwXJLTghsnm4pEQ&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-03-07T091713.200.json
+
+###
+
+POST https://accounts.google.com/o/oauth2/auth?client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&redirect_uri=http://localhost:8084/login/oauth2/code/google&response_type=code&scope=email profile openid&access_type=offline
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: GEM=CgptaW51dGVtYWlkELGJwu_WMg==; NID=522=bVgpdAHm1qtV_oA6reVgE5ghdbLg972OXKbdF03Hpcm_q_7gDo3O8dnxlXErhvFCLOnoNKw5SFXuuzs24vSfwUVpSzPDl23m4nfZoPYPTpd7l_AaGvf7lBl_ck3_3xlCZBHiXL0i-wtSEgWCz4CmQhhMyVGR8QBC0s8d0OpEI_0anh1B5_qtaTq25yE-; __Host-GAPS=1:V9StallZaNd6Z9BYkoJ5xwzUkD0gtQ:YI_sLH8EHVaM_PZn
+content-length: 0
+
+<> 2025-03-07T091619.200.html
+
+###
+
+POST https://accounts.google.com/o/oauth2/auth?client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&redirect_uri=http://localhost:8084/login/oauth2/code/google&response_type=code&scope=email profile openid&access_type=offline
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+cookie:
+content-length: 0
+
+<> 2025-03-07T091344.200.html
+
+###
+
+POST https://accounts.google.com/o/oauth2/auth?client_id=client-id: 1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&redirect_uri=http://localhost:8084/login/oauth2/code/google&response_type=code&scope=email profile openid&access_type=offline
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+content-length: 0
+
+<> 2025-03-07T091035.200.html
+
+###
+
+POST http://localhost:8084/auth/google/callback
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8084/login/oauth2/code/google-callback/flowName=GeneralOAuthFlow?code=4/0ASVgi3I9FJC6XWxhICZrBkRT1MAyLMqZlGBHJqErvDwiXS4o62hTFrhK5J-EjXkVCkgJqg&scope=email profile openid https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email&authuser=0&hd=gsm.hs.kr&prompt=consent
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8084/login/oauth2/code/google-callback/flowName=GeneralOAuthFlow?code=4/0ASVgi3I9FJC6XWxhICZrBkRT1MAyLMqZlGBHJqErvDwiXS4o62hTFrhK5J-EjXkVCkgJqg&scope=email profile openid https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email&authuser=0&hd=gsm.hs.kr&prompt=consent
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST https://oauth2.googleapis.com/token
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-07T090020.400.json
+
+###
+
+POST https://accounts.google.com/auth/google/callback
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+x-http2-scheme: https
+
+{
+  "title": "",
+  "content": ""
+}
+
+<> 2025-03-07T090013.400.html
+
+###
+
+POST https://accounts.google.com/auth/google/callback
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+x-http2-scheme: https
+
+{
+  "title": "",
+  "content": ""
+}
+
+<> 2025-03-07T090002.400.html
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3Kmvh19HYZMSwNwF2784uq315KdsiHRLkhObGnDXE42W1fQB0MJ4VE-r3HccVR0sg&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-03-07T085939.400.json
+
+###
+
+GET http://localhost:8084/articles
+Host: localhost:8084
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzMjMwNjhAZ21haWwuY29tIiwiaWF0IjoxNzQwMjA5MTEyLCJleHAiOjE3NDAyOTU1MTIsInN1YiI6InMyMzA2OEBnc20uaHMua3IiLCJpZCI6NDE2fQ.x6pt-IC1SVF2xoL1KxR1wA1A4ZXxEye-v6WpRwO_ckY
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET https://oauth2.googleapis.com/tokeninfo?access_token=ya29.a0AXeO80TrEtNfyCnpTYMyByfB96MSdG7Wqd_aMd_pSo4cQkRAhK1l1dq_psxPf-QdH31kI5ZrH6CHD4ysXGpX6w-d2vL-SZWXdQXnGTQak8MEdJtnyZjEzpY9d0tr045yfxLWOZD1h8uqJl81MO2TXWIJvNVW1L8CCZtbzxvPcgaCgYKAUwSARISFQHGX2Mi-ujZE5mR4Yn8NyeXX1svAg0177
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-07T085913.400.json
+
+###
+
+POST https://www.googleapis.com/oauth2/v3/userinfo
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-07T085909.401.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-06T204010.400.json
+
+###
+
+POST https://accounts.google.com/auth/google/callback
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+x-http2-scheme: https
+
+{
+  "title": "",
+  "content": ""
+}
+
+<> 2025-03-06T204000.400.html
+
+###
+
+POST http://localhost:8084/auth/google/callback
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST https://accounts.google.com/auth/google/callback
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+x-http2-scheme: https
+
+{
+  "title": "",
+  "content": ""
+}
+
+<> 2025-03-06T203757.400.html
+
+###
+
+POST https://accounts.google.com/o/oauth2/auth
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+content-length: 34
+
+{
+  "title": "",
+  "content": ""
+}
+
+<> 2025-03-06T203750.400.html
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0AQSTgQEDUD08rTxHWR_EU831Z4KpsIyN9_C6AWOaBh4Ir0qpL50bwAeHt79V7V1czuuIeg&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-03-05T195644.200.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0AQSTgQF-cmqdWcs0GY0tZ-9361HJulO4eyi3zS7Mc_OqMxDCj8iZZeJlYOEEA-jAo9KQ2A&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-03-05T193914.200.json
+
+###
+
+GET http://localhost:8084/articles
+Host: localhost:8084
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzMjMwNjhAZ21haWwuY29tIiwiaWF0IjoxNzQwMjIyMTgwLCJleHAiOjE3NDE0MzE3ODAsInN1YiI6InMyMzA2OEBnc20uaHMua3IiLCJpZCI6NDE2fQ.SezNNCHrS21PxNZyyzgdo2CxUlW3VHQ3Mwe3mv6hVtA
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-05T193417.200.html
+
+###
+
+GET https://oauth2.googleapis.com/tokeninfo?access_token=ya29.a0AXeO80TrEtNfyCnpTYMyByfB96MSdG7Wqd_aMd_pSo4cQkRAhK1l1dq_psxPf-QdH31kI5ZrH6CHD4ysXGpX6w-d2vL-SZWXdQXnGTQak8MEdJtnyZjEzpY9d0tr045yfxLWOZD1h8uqJl81MO2TXWIJvNVW1L8CCZtbzxvPcgaCgYKAUwSARISFQHGX2Mi-ujZE5mR4Yn8NyeXX1svAg0177
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-03-05T193347.400.json
+
+###
+
+GET http://localhost:8084/articles
+Host: localhost:8084
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzMjMwNjhAZ21haWwuY29tIiwiaWF0IjoxNzQwMjA5MTEyLCJleHAiOjE3NDAyOTU1MTIsInN1YiI6InMyMzA2OEBnc20uaHMua3IiLCJpZCI6NDE2fQ.x6pt-IC1SVF2xoL1KxR1wA1A4ZXxEye-v6WpRwO_ckY
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8084/api/articles
+Content-Type: application/json
+Content-Length: 34
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "title": "",
+  "content": ""
+}
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3Kmvh19HYZMSwNwF2784uq315KdsiHRLkhObGnDXE42W1fQB0MJ4VE-r3HccVR0sg&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-03-05T193320.400.json
+
+###
+
+GET http://localhost:8084/articles
+Host: localhost:8084
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJzMjMwNjhAZ21haWwuY29tIiwiaWF0IjoxNzQwMjA5MTEyLCJleHAiOjE3NDAyOTU1MTIsInN1YiI6InMyMzA2OEBnc20uaHMua3IiLCJpZCI6NDE2fQ.x6pt-IC1SVF2xoL1KxR1wA1A4ZXxEye-v6WpRwO_ckY
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-22T162849.200.html
+
+###
+
+GET https://oauth2.googleapis.com/tokeninfo?access_token=ya29.a0AXeO80TrEtNfyCnpTYMyByfB96MSdG7Wqd_aMd_pSo4cQkRAhK1l1dq_psxPf-QdH31kI5ZrH6CHD4ysXGpX6w-d2vL-SZWXdQXnGTQak8MEdJtnyZjEzpY9d0tr045yfxLWOZD1h8uqJl81MO2TXWIJvNVW1L8CCZtbzxvPcgaCgYKAUwSARISFQHGX2Mi-ujZE5mR4Yn8NyeXX1svAg0177
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-19T220304.200.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3Kmvh19HYZMSwNwF2784uq315KdsiHRLkhObGnDXE42W1fQB0MJ4VE-r3HccVR0sg&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-19T220230.200.json
+
+###
+
+GET https://oauth2.googleapis.com/tokeninfo?access_token=ya29.a0AXeO80RxXIOpZDwVA-K9F5UJ_7wK5RJOHAhsyVIxLTvUroXAU4mK3C-CM9MwJuN24QFNyeatxzHPrXWihVeK9hxsGk8ZwTQ2nc6430gPJhiGvoRtU_B7nJGpfYVjrXBYS4PQD0x-NAX-lZvXKwGzFbc-xCVtvXPqRdMLjAv5ewaCgYKAaASARISFQHGX2MihPiFau0BWabQjsresvs4bA0177
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-19T220145.400.json
+
+###
+
+GET https://oauth2.googleapis.com/tokeninfo?access_token=ya29.a0AXeO80RxXIOpZDwVA-K9F5UJ_7wK5RJOHAhsyVIxLTvUroXAU4mK3C-CM9MwJuN24QFNyeatxzHPrXWihVeK9hxsGk8ZwTQ2nc6430gPJhiGvoRtU_B7nJGpfYVjrXBYS4PQD0x-NAX-lZvXKwGzFbc-xCVtvXPqRdMLjAv5ewaCgYKAaASARISFQHGX2MihPiFau0BWabQjsresvs4bA0177
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-19T204631.200.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3KRDoDkTn2HvCjSpHfc7zgbNKdM_aYHEMOit7ynYo6_8oxDsagEz6MsZljUGG_BpQ&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-19T204339.200.json
+
+###
+
+POST https://www.googleapis.com/oauth2/v3/userinfo
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-19T204227.401.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3KmguiYv0w6xmUKCpg8LksS6EXRyTKxHxiFL0ATFkfa6NLgwJrWk1UrECZeR4K7bQ&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-17T194012.200.json
+
+###
+
+POST https://www.googleapis.com/oauth2/v3/userinfo
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-17T184701.401.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3ImD3D6xYc4aC2cfHGgde32J0dRU_GBkHeLENBAz2bhSNt3udC0WmdXRj-ywsYGqA&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-17T183544.200.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3IetzWksTBKUhZTSiJ0s7v2l4b-x8bt7INB2zXYLQZHelLAsmhD3-95HGPFQpJ94Q&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-17T183325.400.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3IetzWksTBKUhZTSiJ0s7v2l4b-x8bt7INB2zXYLQZHelLAsmhD3-95HGPFQpJ94Q&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-17T181240.200.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3Jx83SOXh7uK1TGAHoNfTZJv2JEsX9TqTSPoDv_bPviQgq5oMeuhjdRwiMNIYCl0w&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-17T181112.400.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 320
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4%2F0ASVgi3Jx83SOXh7uK1TGAHoNfTZJv2JEsX9TqTSPoDv_bPviQgq5oMeuhjdRwiMNIYCl0w&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-17T180705.200.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 246
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&code=4&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-17T180430.400.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 239
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+x-http2-scheme: https
+
+client_id=1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com&client_secret=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&grant_type=authorization_code&redirect_uri=http%3A%2F%2Flocalhost%3A8084%2Flogin%2Foauth2%2Fcode%2Fgoogle
+
+<> 2025-02-17T180414.400.json
+
+###
+
+POST https://oauth2.googleapis.com/token
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-17T175324.400.json
+
+###
+
+GET http://localhost:8084/api/me
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8084/api/me
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST https://oauth2.googleapis.com/token
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-14T155637.400.json
+
+###
+
+POST https://accounts.google.com/o/oauth2/auth
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+Cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+cookie: GEM=CgptaW51dGVtYWlkEJvs7_rPMg==
+content-length: 34
+
+{
+  "title": "",
+  "content": ""
+}
+
+<> 2025-02-14T155615.400.html
+
+###
+
+GET http://localhost:8084/api/me
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8084/api/me
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST https://oauth2.googleapis.com/token
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-13T215344.400.json
+
+###
+
