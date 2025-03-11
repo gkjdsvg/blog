@@ -1,10 +1,10 @@
 package com.example.blog.domain;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.*;
-import lombok.*;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.cglib.core.Local;
+import lombok.AccessLevel;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
@@ -23,18 +23,20 @@ public class Article {
     private Long id;
 
     @Column(name = "title", nullable = false)
-    @Getter
     private String title;
 
     @Column(name = "content", nullable = false)
-    @Getter
     private String content;
 
+    @Column(name = "author", nullable = false)
+    private String author;
+
     @Builder
-    public Article(Long id, String title, String content){
+    public Article(Long id, String title, String content, String author) {
         this.id = id;
         this.title = title;
         this.content = content;
+        this.author = author;
     }
 
     public void update(String title, String content) {

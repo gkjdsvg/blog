@@ -1,17 +1,47 @@
 spring:
   datasource:
-    url: 'jdbc:h2:file:C:/h2/data' # H2 DB 연결 주소 (Embedded Mode) // H2 콘솔 활성화
-    driver-class-name: org.h2.Driver
-    username: sa
-    password:
-    platform: h2
-  hibernate:
-    dialect: org.hibernate.dialect.H2Dialect
+    url: jdbc:mysql://localhost:3306/blog?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Seoul
+    username: root
+    password: 10061
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1090860626822-3elf6jm8vtbivfap7778jbqf0lmv97a9.apps.googleusercontent.com
+            client-secret: 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
+            redirect-uri: https://{baseHost}{basePort}/login/oauth2/code/google
+            scope:
+              - profile
+              - email
+            authorization-grant-type: authorization_code
+            client-name: Google
+        provider:
+          google:
+            authorization-uri: https://accounts.google.com/o/oauth2/auth
+            token-uri: https://oauth2.googleapis.com/token
+            user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
+            jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
+
+  aop:
+    proxy-target-class: true
+
+
+
+jwt:
+  issuer: s23068@gmail.com
+  secretKey: study-springboot-is-a-secure-key-32-characters
+
 
 server:
-  port: 8083
+  port: 8084
